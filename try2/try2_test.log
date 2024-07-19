@@ -1,0 +1,228 @@
+system prompt: You are an AI language model developed by IBM Research. You are a cautious assistant. You carefully follow instructions. You are helpful and harmless and you follow ethical guidelines and promote positive behavior.
+[1]
+ user prompt: In Canada, what are the five methods to identify a person?
+expected output: In Canada, five methods to identify a person are gov't id, credit file, dual-process, affiliate, reliance.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+In Canada, there are five primary methods to identify an individual: fingerprints, DNA, iris scan, facial recognition, and voice recognition. Here's a brief overview of each method:
+
+1. **Fingerprints:** This traditional method involves analyzing the ridges and patterns on an individual's fingertips. Fingerprint analysis is a widely used and well-established identification technique.
+
+2. **DNA:** DNA analysis involves examining
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+In Canada, the government and financial institutions must follow strict guidelines when verifying the identity of a person. These guidelines, known as the "Five Methods to Identify a Person," are essential for ensuring data security and preventing fraud. Here are the five methods:
+- One government-issued photo ID: This could include a passport, driver's license, or permanent resident card. The document should include the person's name, photo, and other relevant details.
+==========
+[2]
+ user prompt: Which Canadian credit bureaus provide credit file information for identification purposes?
+expected output: Equifax Canada and TransUnion Canada provide credit file info for identification purposes.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+Credit bureaus in Canada provide credit file information for identification purposes primarily through Equifax and TransUnion. These credit bureaus collect and maintain credit histories on consumers, which are then used by various entities, including financial institutions and lenders, to assess creditworthiness.
+
+To obtain a credit file from Equifax, you can visit their website at www.equifax.ca and follow the instructions to request your credit report. TransUnion's website
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+The two Canadian credit bureaus that provide credit file information for identification purposes are Equifax and TransUnion. When you refer to a Canadian credit file, you are referring to the information contained in these two organizations' databases about an individual's financial history.
+==========
+[3]
+ user prompt: In Canada, can the identify of a person be verified on your behalf?
+expected output: In Canada, an agent or mandatory can be used to verify the identify of a person on your behalf.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+In Canada, the process of identity verification can vary depending on the organization or service provider. However, generally, the identity of a person cannot be verified on someone else's behalf without their explicit consent. This is because the verification process typically requires personal information, such as a name, address, or government-issued ID, which should only be shared with the individual's knowledge and consent.
+
+In some cases, a third-party verification service might be used to authent
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+In Canada, there are laws and regulations that govern the process of verifying a person's identity. These requirements can vary depending on the situation and the specific regulations that apply. For instance, some regulations may require you to have an in-person meeting with the person whose identity you want to verify, while others might allow you to use remote methods such as video conference calls.
+==========
+[4]
+ user prompt: In Canada, how do you identify a child under 12 years of age?
+expected output: In Canada, one identify of a parent must be verified in order to identify a child under 12 years of age.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+In Canada, the age of majority is 18 years or older. Therefore, a child under 12 years of age is considered a minor, as they are not yet a legal adult. This classification is typically used in legal and social contexts to distinguish between individuals with different levels of responsibility and autonomy.
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+To verify the identity of a child under 12 years of age in Canada, you must be satisfied that: a) you have been dual-recognition verified by the government of Canada; and b) you have confirmed the identity of the person making the application (the "applicant") by reviewing documents that establish the applicant's identity, such as a valid driver's licence, passport, or other government-issued photo identification.
+==========
+[5]
+ user prompt: In Canada, What are the three methods to verify the identity of an entity?
+expected output: In Canada, the three methods to verify the identify of an entity are confirmation, reliance, simplified.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+In Canada, there are three primary methods to verify the identity of an entity:
+
+1. **Identity Document Verification:** This method involves comparing the physical features of the individual's identity document, such as a passport or driver's license, with the person presenting the document. This process helps ensure that the identity document belongs to the individual and is not a forgery.
+
+2. **Knowledge-Based Authentication:** This method requires the individual to provide
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+In Canada, the three methods to verify the identity of an entity for government-issued photo identification are:
+1. Using the dual-process verification approach, which requires two independent sources of information to establish the entity’s identity;
+2. Using the centralized-process verification approach, which relies on a single source of information but is subject to stricter regulations and requirements;
+3. Using a government-issued credit file as an alternative form of validating
+==========
+[6]
+ user prompt: In Canada, when is a certificate of incorporation used?
+expected output: In Canada, a certificate of incorporation can be used to verify the identity of a corporation.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+A certificate of incorporation, also known as a certificate of formation or articles of incorporation, is a legal document that officially establishes a corporation in Canada. It outlines the corporation's name, purpose, directors, and other essential details. Here are some situations where a certificate of incorporation is used in Canada:
+
+1. **Incorporation:** A certificate of incorporation is the primary document used to register a new corporation in Canada. The process involves filing
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+A certificate of incorporation is used in Canada to verify the existence and legal status of a corporation. It contains essential information such as the corporation's name, address, and the dates and times of its incorporation. The certificate is issued by the government entity responsible for registering corporations within the jurisdiction where the corporation operates.
+==========
+[7]
+ user prompt: In Canada, what documents do you need to verify the identity of an entity other than a corporation?
+expected output: In Canada, a partnership agreement and articles verify the identity of an entity other than a corporation.
+
+-----model output BEFORE training----:
+
+Loading pretrained model
+Using model_type='mistral'
+LoRA init skipped
+Total parameters 1242.375M
+Trainable parameters 0.000M
+Loading datasets
+LoRA loading skipped
+Generating
+==========
+In Canada, to verify the identity of an entity other than a corporation, you can use either an official identification document or a sworn affidavit.
+
+There are two types of official identification documents:
+
+1. **Passport or Canadian Citizenship Card:** A passport or Canadian Citizenship Card issued by the Canadian government is a reliable form of identification.
+
+2. **Two Pieces of Identification:** If a passport or
+==========
+
+-----model output AFTER training----:
+
+Loading pretrained model
+Using model_type='mistral'
+Total parameters 1244.079M
+Trainable parameters 1.704M
+Loading datasets
+Generating
+==========
+To verify the identity of an entity other than a corporation in Canada, you typically need two original government-issued photo identification documents. These could be passports, driver's licenses, or other similar documents that clearly show the entity's name and image.
+==========
