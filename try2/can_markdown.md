@@ -31,7 +31,7 @@ Photo identification documents issued by municipal governments, Canadian or fore
 
 You can determine whether a government-issued photo identification document is authentic, valid and current by viewing it in person, and by looking at the characteristics of the original physical document and its security features (or markers, as applicable) in the presence of the person being identified. This will allow you to be satisfied that the identification document is authentic, as issued by the competent authority (federal, provincial, or territorial government), valid (unaltered, not counterfeit) and current (not expired).     
 
-Using the government-issued photo identification method if a person is not physically present
+#### Using the government-issued photo identification method if a person is not physically present
 You may use the government-issued photo identification method if a person is not physically present, but you must have a process in place to authenticate the government-issued photo identification document. For instance, you could assess a document by using a technology capable of determining the document's authenticity. For example, you could:
 - ask a person to scan their government-issued photo identification document using the camera on their mobile phone or electronic device; and
 - use a technology to compare the features of the government-issued photo identification document against known characteristics (for example, size, texture, character spacing, raised lettering, format, design), security features (for example, holograms, barcodes, magnetic strips, watermarks, embedded electronic chips) or markers (for example, logos, symbols) to be satisfied that it is an authentic document as issued by the competent authority (federal, provincial, or territorial government).
@@ -43,7 +43,7 @@ Note: It is not enough to only view a person and their government-issued photo i
 
 Your compliance program's policies and procedures must describe the processes you follow to determine whether a government-issued photo identification document is authentic, whether the client is present or not, and how you will confirm that it is valid and current. Your policies and procedures must also describe the steps you use to confirm that the name and photograph are those of the person. Your processes to determine that a government-issued photo identification document is authentic, valid, and current, and the verification step (ensuring that the name and photo match the name and appearance of the person), do not need to happen at the same time. It is up to you to determine the timing, but you must complete both steps.
 
-Record keeping requirements for the government-issued photo identification method
+#### Record keeping requirements for the government-issued photo identification method
 If you use the government-issued photo identification method, you must record:
 - the person's name;
 - the date on which you verified the person's identity;
@@ -106,10 +106,10 @@ Referring to information from one reliable source that includes the person's nam
 
 Note: If the information does not match the information provided by the person, you cannot rely on it. For example, it is not acceptable to rely on information if the account number or number that is associated with the information is truncated or redacted. On occasion, information from a source may contain a variation on the name of the client or a typo in the client's address. In these instances, you must determine whether the information matches the information provided by the person. If it is a slight typo in the address or a misspelled name, you may determine that the information still matches what the person provided. However, in the case of an incorrect date of birth, it is more likely that you will determine that the information does not match. In this case, you cannot rely on the information from this source for identification purposes. You must obtain information from a different source under the dual-process method or use a different method (for example, the government-issued photo identification method or the credit file method) to verify the person's identity.
 
-Reliable source of information
+#### Reliable source of information
 A reliable source of information is an originator or issuer of information that you trust. To be considered reliable, the source should be well known and considered reputable. For example, a reliable source could be the federal, provincial, territorial or municipal levels of government, Crown corporations, federally regulated financial institutions, or utility providers. Social media is not an acceptable source of information to verify a person's identity. Also, the source cannot be the person whose identity is being verified, nor you, the RE who is verifying identity.See Annex 5 for a table of examples of reliable sources of information for the dual-process method.
 
-How to use a credit file under the dual-process method
+#### How to use a credit file under the dual-process method
 A Canadian credit file can be used as one of the two pieces of information required to verify the identity of a person under the dual-process method. Specifically, it can be used to confirm the person's name and address, name and date of birth, or to confirm the person's name and confirm that the person has a credit card account or a loan account. If you use a credit file as one of the information pieces for the dual-process method, it must have existed for at least six months.
 
 Information from a second source, for example, a property tax assessment, must be used to confirm the second category of information. In this instance, the two reliable sources are the Canadian credit bureau that provided the credit file information and the municipal government that issued the property tax assessment. The information from these two sources must match the information provided by the person.
@@ -118,7 +118,7 @@ You can also refer to information from a Canadian credit bureau if it acts as an
 
 The tradelines cannot be your own, as the RE verifying the person's identity, and each tradeline must originate from a different reliable source (for example, a federally regulated financial institution, a utility service provider, etc.). 
 
-Record keeping requirements for the dual-process method
+#### Record keeping requirements for the dual-process method
 If you use the dual-process method to verify a person's identity, you must record:
 - the person's name;
 - the date you verified the information;
@@ -142,7 +142,7 @@ If you have any concerns about the methods or information that the affiliate or 
 
 Note: Financial services cooperatives or credit union centrals act on behalf of a membership composed of certain financial entities and can provide financial services to that group.
 
-Record keeping requirements for the affiliate or member method
+#### Record keeping requirements for the affiliate or member method
 When you verify the identity of a person by confirming that an affiliate or a financial entity that is a member of your financial services cooperative or credit union central previously verified their identity, you must record:
 - the person's name;
 - the date on which you verified the identity of the person;
@@ -169,7 +169,7 @@ To rely on measures previously taken by another RE or an affiliated foreign enti
    - the other RE or affiliated foreign entity verified the person's identity using the government-issued photo identification method, the credit file method or the dual-process method, or if the other RE or affiliated foreign entity verified the person's identity prior to June 1, 2021, that they did so in accordance with the PCMLTFR, by using the methods that were in place at the time; and
 - have a written agreement or arrangement with the other RE or affiliated foreign entity that upon request requires them to provide you, as soon as feasible, with all of the information that they referred to in order to verify the person's identity.
 
-Record keeping requirements for the reliance method
+#### Record keeping requirements for the reliance method
 If you rely on another RE or an affiliated foreign entity to verify the identity of a person, you must keep a record of:
 - the person's name;
 - the written agreement or arrangement with the other RE or affiliated foreign entity for the purpose of verifying a person's identity; and
@@ -320,7 +320,7 @@ If you are an RE that is referred to in any of paragraphs 5(a) to (g) of the PCM
 
 If you subsequently consider, based on your risk assessment, that the risk of a money laundering offence or terrorist activity financing offence has increased and is no longer low then you must, as soon as feasible, verify the identity of the corporation or other entity, as the case may be, by referring to the appropriate records, as explained in section 7.1, Confirmation of existence method.
 
-Record keeping requirements for the simplified identification method
+#### Record keeping requirements for the simplified identification method
 If you use the simplified identification method to verify the identity of a corporation or other entity, you must keep a record that sets out:
 - the grounds for considering there is a low risk of a money laundering offence or terrorist activity financing offence; and
 - the information obtained about the corporation or other entity, as the case may be, and about the persons that assure you that the corporation or other entity exists and that the persons you deal with are authorized to act on behalf of the corporation or the entity.
