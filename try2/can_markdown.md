@@ -74,7 +74,7 @@ On occasion, information found in the credit file may contain a variation on the
 - In this case, if this is your determination, you cannot rely on the information in the credit file for identification purposes. You will need to use another credit file from a different provider (credit bureau or third party vendor) or use a different method (for example, the government-issued photo identification method or the dual-process method) to verify the person's identity.
 - If there are multiple addresses in the credit file, it is possible that the address the person provided to you is not the primary address in the credit file but it does appear in the credit file as a secondary address. If this is the case, you can still meet your requirements for ensuring that the information matches what the person provided.
 
-Record keeping requirements for the credit file method
+#### Record keeping requirements for the credit file method
 If you use the credit file method, you must record:
 - the person's name;
 - the date you consulted or searched the credit file;
