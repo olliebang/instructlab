@@ -1,0 +1,277 @@
+version: 3
+created_by: olliebang
+domain: legal and regulatory
+seed_examples:
+  - context: |
+      This guidance came into effect on June 1, 2021.
+
+      This guidance explains the methods that can be used by reporting entities (REs) to verify the identity of
+      a person or an entity.
+
+      ## 1.Meaning of verifying the identity of a person or an entity
+      It means to use the methods described in this guidance to ensure that the information in an identification
+      document or from other informational sources matches the information that the person or entity provided.
+
+      Verifying identity is a foundational element of Canada's anti-money laundering and anti-terrorist financin
+      regime and a key component of an RE's relationship with clients. It helps you to know your client
+      and to understand and assess any risk that
+      may be associated to their transactions or activities.
+
+      ## 2.How to verify the identity of a person
+      You can use any of the 5 methods described below to identify a person:
+      - 2.1 Government-issued photo identification method
+      - 2.2 Credit file method
+      - 2.3 Dual-process method
+      - 2.4 Affiliate or member method
+      - 2.5 Reliance method
+
+    questions_and_answers:
+      - question: |
+          What is the purpose of this guidance?
+        answer: |
+          The purpose of the guidance is to describe the methods to verify the identity of persons and entities
+      - question: |
+          When did this guidance come into effect?
+        answer: |
+          This guidance came into effect on June 1, 2021.
+      - question: |
+          Why is it important to verify identify?
+        answer: |
+          Verifying identify is a foundational element of Canada's anti-money laundering and anti-terrorist financing
+          regime and a key component of an Reporting Entity's relationship with clients. It helps you to know
+          your clients and to understand
+          and assess any risk that be associated to their transactions or activities.
+      - question: |
+          How many methods are acceptable to verify the identify of a person?
+        answer: |
+          There are five methods to verify the identify of a person
+      - question: |
+          What are the methods to verify the identify of a person?
+        answer: |
+          The methods to verify the identify of a person are:
+          - government-issued photo identification method
+          - credit file method
+          - dual-process method
+          - affiliate or member method
+          - reliance method
+
+  - context: |
+      ## 2.1 Government-issued photo identification method
+      You may verify the identity of a person by referring to a government-issued photo identification document.
+      To do so, the document must:
+
+       -be authentic, valid and current;
+       -be issued by a federal, provincial or territorial government (or by a foreign government if
+        it is equivalent to a Canadian document);
+       -indicate the person's name;
+       -include a photo of the person;
+       -include a unique identifying number; and
+       -match the name and appearance of the person being identified.
+
+      Photo identification documents issued by municipal governments, Canadian or foreign, are not acceptable.
+      See Annex 4 for examples of acceptable government-issued photo identification documents.
+      #### Record keeping requirements for the government-issued photo identification method
+      If you use the government-issued photo identification method, you must record:
+      - the person's name;
+      - the date on which you verified the person's identity;
+      - the type of document used (for example, driver's licence, passport, etc.);
+      - the unique identifying number of the document used;
+      - the jurisdiction (province or state) and country of issue of the document; and
+      - the expiry date of the document, if available (if this information appears on the document or card,
+        you must record it).
+
+      Photo identification documents issued by municipal governments, Canadian or foreign, are not acceptable.
+      See Annex 4 for examples of acceptable government-issued photo identification documents.
+
+    questions_and_answers:
+      - question: |
+          What are the requirements for government-issued photo identification document to
+          verify the identify of a person?
+        answer: |
+          The requirements for a government-issued photo identification document to verify
+          the identity of a person are:
+          - be authentic, valid and current
+          - be issued by a federal, provincial or territorial government (or by a foreign government
+            if it is equivalent to a Canadian document);
+          - indicate the person's name;
+          - include a photo of the person;
+          - include a unique identifying number; and match the name and appearance of the person being identified.
+
+      - question: |
+          What are the record keeping requirements when using the government-issued photo identification
+          document method to verify the identity of a person?
+        answer: |
+          The record keeping requirements when using the governent-issued photo identification document method are
+          that you must record the following:
+          - the person's name;
+          - the date on which you verified the person's identity;
+          - the type of document used (for example, driver's licence, passport, etc.);
+          - the unique identifying number of the document used;
+          - the jurisdiction (province or state) and country of issue of the document; and
+          - the expiry date of the document, if available
+
+      - question: |
+          True or False: When using the government-issued photo identification document to verify the identify of
+          a person, documents issued by municipal governments are acceptable.
+        answer: |
+          False.
+
+      - question: |
+          True or False: When using the government-issued photo identification document to verify the identify
+          of a person, documents issued by foreign municipal governments are acceptable.
+        answer: |
+          False.
+
+      - question: |
+          True or False: When using the government-issued photo identification document to verify
+          the identify of a person, documents issued by municipal governments are not acceptable.
+
+        answer: |
+          True.
+
+  - context: |
+      ### 2.2 Credit file method
+      You may verify the identity of a person by referring to information that is in their credit file.
+      To do so, the credit file must:
+      - contain information that is valid and current;
+      - be from a Canadian credit bureau (credit files from foreign credit bureaus are not acceptable);
+      - have been in existence for at least three years;
+      - contain information that is derived from more than one source (i.e. more than one tradeline); and
+      - match the name, address and date of birth of the person being identified.
+
+      A credit file provides a rating on a person's ability to repay loans; however, it is possible to
+      request a credit file to verify a person's identifying information that does not include a credit
+      assessment. You do not need a credit assessment to verify the identity of a person.
+      Equifax Canada and TransUnion Canada are Canadian credit bureaus that provide credit file
+      information for identification purposes.
+
+      To use the credit file method, you must conduct the search at the time you are verifying the person's identity.
+      A person cannot provide you with a copy of their credit file, nor can a previously obtained credit file be used.
+
+      It is acceptable to use an automated system to match the person's information with the
+      information in the person's credit file. You may also refer to a third party vendor
+      to provide you with valid and current information from the person's credit file.
+      A third party vendor is a business that is authorized by a Canadian credit bureau
+      to provide access to Canadian credit information.
+
+
+      #### Record keeping requirements for the credit file method
+      If you use the credit file method, you must record:
+      - the person's name;
+      - the date you consulted or searched the credit file;
+      - the name of the Canadian credit bureau or third party vendor as the source holding the credit file; and
+      - the person's credit file number.
+
+    questions_and_answers:
+      - question: |
+          When using the credit file method to verify the identity of a person, what are
+          the requirements for the credit file?
+        answer: |
+          When using the credit file method to verify the identify of a person,
+          the credit file must:
+          - contain information that is valid and current
+          - be from a Canadian credit bureau (credit files from foreign credit bureaus are not acceptable)
+          - have been in existence for at least three years;
+          - contain information that is derived from more than one source (i.e. more than one tradeline); and
+          - match the name, address and date of birth of the person being identified.
+
+      - question: |
+          When using the credit file method to verify the identity of a person, can the credit file
+          be obtained from the person?
+        answer: |
+          No.
+
+      - question: |
+          When using the credit file method to verify the identity of a person, what are
+          the record keeping requirements?
+        answer: |
+          When using the credit file method to verify the identity of a person, the
+          the record keeping requirements are:
+          - the person's name
+          - the date you consulted or searched the credit file
+          - name of the Canadian credit bureau or third party vendor as the source of the credit file
+          - the person's credit number
+
+      - question: |
+          When using the credit file method to verify the identity of a person, how many years
+          must the credit file have been in existence?
+        answer: |
+          At least 3 years.
+
+      - question: |
+          When using the credit file method to verify the identity of a person, are credit files from
+          foreign credit bureaus acceptable?
+        answer: |
+          No.
+
+  - context: |
+      ## 5. How to identify a child
+      If a child is under 12 years of age, you must verify the identity of one parent, guardian or tutor
+      and record the parent, guardian or tutor's information.You can rely on the information provided by the
+      parent, guardian or tutor in order to record the child's identification details.
+
+      If a child is between 12 and 15 years of age, you can verify their identity by using any of
+      the methods. If this is not possible due to a lack of identification information, you may
+      se a variation of the dual-process method that allows you to:
+      - Refer to one reliable source of information that includes the name and address of the
+        child's parent, guardian, or tutor;and
+      - Refer to a second reliable source that includes the child's name and date of birth.
+
+      For example, if the child has a passport you may be able to use it to verify their identity under
+      the government-issued photo identification method.  If not, you could rely on the parent's driver's
+      licence to verify the parent's name and their common address, and the child's birth certificate
+      to verify the child's name and date of birth.
+
+    questions_and_answers:
+      - question: |
+          What is the procedure to identify a child under 12 years of age?
+        answer: |
+          The identity of one parent, guardian or tutor must be verified
+      - question: |
+          What methods are used to verify the identity of a childe between 12 and 15 years of age?
+        answer: |
+          Any of the following methods may be used:
+          - government-issued photo identification method
+          - credit file method
+          - dual-process method
+          - affiliate or member method
+          - reliance method
+      - question: |
+          When verifying the identity of a child between 12 and 15 years of age and there is lack of
+          information, what method may be used?
+        answer: |
+          A variation of the dual-process may be used
+
+  - context: |
+      ## 7. How to verify the identity of an entity
+      You can use any of the 3 methods described below to verify the identity of an entity:
+      - 7.1 Confirmation of existing method
+      - 7.2 Reliance method
+      - 7.3 Simplified identification method
+      While an entity can be a corporation, a trust, a partnership, a fund, or an unincorporated association
+      or organization, corporations are subject to different requirements than other entities (as explained below).
+
+    questions_and_answers:
+      - question: |
+          How many methods exist to verify the identity of an entity?
+        answer: |
+          3.
+      - question: |
+          What methods are used to verify the identity of an entity?
+        answer: |
+          Any of the following methods may be used to verify the identity of an entity:
+          - confirmation of existing method
+          - reliance method
+          - simplified identification method
+      - question: |
+          Which entity type might have have different requirements when verifying the identity of an entity?
+        answer: |
+          A corporation may be subject to different requirements when verifying the identity of an entity.
+
+document_outline: |
+  this document goes through the methods of identity verification
+document:
+  repo: https://github.com/olliebang/instructlab
+  commit: 7f4cadf
+  patterns:
+    - try3/can_markdown.md
