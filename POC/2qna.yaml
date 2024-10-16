@@ -1,0 +1,351 @@
+version: 3
+created_by: gibsonlam
+domain: credit card
+seed_examples:
+  - context: |
+      An Acquirer and each of its Merchants must support POS Transactions (authorized online by the
+      Issuer or offline by the chip), and a full reversal when performed to cancel a POS Transaction 
+      that the Acquirer cannot complete due to a technical problem.
+      
+      The Acquirer of a Merchant that accepts Maestro® Cards must support Maestro POS Transactions 
+      that either automatically access the primary account or allow the Cardholder to choose to
+      access the checking account or savings account ("account selection").
+      
+      Effective 12 April 2024, an Acquirer must support the online authorization of Mastercard®, 
+      Debit Mastercard®, and Maestro refund Transactions acquired on the Dual Message System and 
+      enable refund Transaction authorization service for a Merchant upon request. The Acquirer must
+      pass the Issuer's refund Transaction authorization response to the Merchant.
+      
+      An Acquirer may also support, and its Merchants may optionally offer, the following 
+      Transaction/Payment Transaction and message types. An Acquirer that supports and any of its
+      Merchants that offer an optional Transaction and/or Payment Transaction or message type
+      must comply with the Rules applicable to the optional Transaction and/or Payment Transaction
+      or message type that is supported or offered.
+      - Purchase with cash back Transactions (Debit Mastercard and Maestro only, unless otherwise
+      specified for a country or Region)
+      - Merchant-approved Maestro POS Transactions
+      - Payment Transactions
+      - Maestro POS Transaction preauthorization and completion (single message processing)
+      - Account Status Inquiry (ASI) requests
+      - Partial approval
+      - Balance response (prepaid only)
+      - Full reversal, including cancellation, and partial reversal (Merchant-initiated at the POS
+      Terminal)
+      - POS balance inquiry (Debit Mastercard and Maestro only)
+      - Maestro refund Transactions and/or corrections acquired on the Single Message System
+      - Offline chip processing of refund Transactions
+
+    questions_and_answers:
+      - question: |
+          Who must support POS Transactions including a full reversal performed to cancel a POS
+          Transaction?
+        answer: |
+          An Acquirer and each of its Merchants must support POS Transactions.
+      - question: |
+          What types of POS Transactions must be supported by an Acquirer and each of its
+          merchants?
+        answer: |
+          An Acquirer and each of its Merchants must support POS Transactions that are authorized
+          online by the Issuer or offline by the chip.
+      - question: |
+          When must an Acquirer support the online authorization of Mastercard, Debit Mastercard,
+          and Maestro refund Transactions acquired on the Dual Message System?
+        answer: |
+          An Acquirer must support the Dual Message System effective 12 April 2024.
+      - question: |
+          When must an Acquirer enable refund Transaction authorization service for a Merchant upon
+          request?
+        answer: |
+          An Acquirer must enable refund Transaction authorization service for a Merchant request
+          effective 12 April 2024.
+      - question: |
+          What other Transaction/Payment Transaction and message types may be supported by an
+          Acquirer?
+        answer: |
+          An Acquirer amy also support the following Transaction/Payment Transaction and message types:
+          - Purchase with cash back Transactions (Debit Mastercard and Maestro only, unless otherwise
+          specified for a country or Region)
+          - Merchant-approved Maestro POS Transactions
+          - Payment Transactions
+          - Maestro POS Transaction preauthorization and completion (single message processing)
+          - Account Status Inquiry (ASI) requests
+          - Partial approval
+          - Balance response (prepaid only)
+          - Full reversal, including cancellation, and partial reversal (Merchant-initiated at the POS
+          Terminal)
+          - POS balance inquiry (Debit Mastercard and Maestro only)
+          - Maestro refund Transactions and/or corrections acquired on the Single Message System
+          - Offline chip processing of refund Transactions
+
+  - context: |
+      ### Offline Chip Processing
+      If a Transaction that may be processed offline in accordance with the Terminal offline chip
+      authorization limit cannot be processed offline for any reason, the Transaction must be
+      processed online; if the Transaction cannot be processed online, then the Transaction must be
+      declined. A Mastercard Single Message System Acquirer may clear offline Chip Transaction by
+      transmitting the required Transaction data in an online Financial Advice/0220 message or as
+      part of a batch notification.
+
+      ### Account Status Inquiry (ASI) Requests
+      An ASI request is an Authorization Request/0100 or Financial Transaction Request/0200
+      message initiated by an Acquirer or Merchant to obtain the Issuer's validation that a
+      Cardholder's Account is open and active.
+      
+      An ASI request is identified with a value of 8 (Account Status Inquiry Service [ASI]) in DE 61
+      (Point-of-Service [POS] Data), subfield 7 (POS Transaction Status), and when submitted in
+      connection with a purchase, contains a value of 00 (Purchase) in DE 3 (Processing Code),
+      subfield 1 (Cardholder Transaction Type Code). A Purchase ASI request must have a Transaction
+      amount of zero.
+      
+      Unless specifically permitted in the Standards, a purchase Transaction authorization request
+      must not contain a Transaction amount value of one major unit of currency or any other nominal
+      test amount that does not represent an actual purchase.
+
+      ### Echoing of Transaction Link ID
+      Effective 17 October 2025, an Acquirer must populate DE 105 (Multi-Use Transaction
+      Identification Data), subelement 001 (Transaction Link Identifier [TLID]) of each incremental
+      Authorization/0100, Authorization Advice/0120, Financial Transaction Request/0200, Financial
+      Transaction Advice/0220, Reversal Request/0400, and Acquirer Reversal Advice/0420 message
+      with the value in the TLID field received in the corresponding Authorization Request Response/
+      0110, Financial Transaction Request Response/0210, or other original message response for the
+      same Transaction.
+
+    questions_and_answers:
+      - question: |
+          If a Transaction that may be processed offline cannot be processed offline, how may the 
+          Transaction be processed?
+        answer: |
+          If the Transaction that may be processed offline in accordance with the Terminal offline chip
+          authorization limit cannot be processed offline for any reason, the Transaction must be
+          processed online.
+      - question: |
+          What is an ASI?
+        answer: |
+          ASI is an Account Status Inquiry request and is an Authorization Request/0100 or Financial 
+          Transaction Request/0200 message initiated by an Acquirer or Merchant to obtain the Issuer's 
+          validation that a Cardholder's Account is open and active.
+      - question: |
+          How is an ASI identified?
+        answer: |
+          An ASI request is identified with a value of 8 (Account Status Inquiry Service [ASI]) in DE 61
+          (Point-of-Service [POS] Data), subfield 7 (POS Transaction Status), and when submitted in
+          connection with a purchase, contains a value of 00 (Purchase) in DE 3 (Processing Code),
+          subfield 1 (Cardholder Transaction Type Code).
+      - question: |
+          What is the amount of a Purchase ASI request?
+        answer: |
+          A Purchase ASI request must have a Transaction amount of zero.
+      - question: |
+          What requirement for Transaction Link ID is being enforced effective 17 October 2025?
+        answer: |
+          Effective 17 October 2025, an Acquirer must populate DE 105 (Multi-Use Transaction
+          Identification Data), subelement 001 (Transaction Link Identifier [TLID]) with the value in the
+          TLID field received.
+
+  - context: |
+      The Issuer of a debit Card Program or of a credit Card Program that provides cash access at
+      ATM Terminals and Bank Branch Terminals:
+      1. Must support POS Transaction authorizations and preauthorizations from a debit
+      Cardholder’s primary account, checking account, and savings account.
+      2. Must offer cash withdrawal and Merchandise Transactions from no account specified to
+      debit Cardholders and cash advances to credit Cardholders.
+      3. May offer, at its option, balance inquiry to checking, savings, and credit card accounts; and
+      transfers to and from checking and savings accounts.
+      
+      ### Offline Chip Processing
+      A Chip Card Issuer that elects to process offline Chip Transactions must support offline
+      purchase and refund Transactions. If an offline Transaction type is not offered to a Cardholder,
+      the chip must send the Transaction online for authorization or decline the Transaction offline. An
+      Issuer must accept a Chip Transaction cleared online by an Acquirer following an offline
+      authorization.
+      
+      ### Online Authorization of Refund Transactions
+      An Issuer must support the online authorization of refund Transactions for all Mastercard and
+      Debit Mastercard Account ranges, with the exception of non-reloadable prepaid Account ranges.
+      
+      If not supported, the Issuer must provide a value of 57 indicating “transaction not permitted to
+      issuer/cardholder” in DE 39 (Response Code) of the online authorization message.
+      
+      ### Chip Technical Fallback
+      An Issuer must decline authorization of a Transaction conducted in the Canada, Europe, Latin
+      America and the Caribbean, or Middle East/Africa Region when technical fallback from chip to
+      magnetic stripe occurred.
+      
+      ### Account Status Inquiry (ASI) Requests
+      An ASI request is an Authorization Request/0100 or Financial Transaction Request/0200
+      message initiated by an Acquirer or Merchant to obtain the Issuer's validation that a
+      Cardholder's Account is open and active. An ASI request is identified with the values of 8
+      (Account Status Inquiry Service [ASI]) in DE 61 (Point-of-Service [POS] Data), subfield 7 (POS
+      Transaction Status and 00 (Purchase) in DE 3 (Processing Code), subfield 1 (Cardholder
+      Transaction Type Code) and has a Transaction amount of zero.
+      
+      An Issuer that receives an ASI request must provide a valid and accurate value in DE 39
+      (Response Code) of the Authorization Request Response/0110 or Financial Transaction Request
+      Response/0210 message. If a Mastercard or Debit Mastercard Account is open and active, the
+      Issuer must provide a value of 00 (Approved) or 85 (Not Declined) in DE 39.
+      
+      Mastercard will deem an Issuer to be noncompliant with this requirement if the Issuer declines
+      an ASI request involving a Mastercard or Debit Mastercard Account and within 24 hours of such
+      decline, approves a Transaction authorization request for a non-zero Transaction amount
+      involving the same Merchant or Sponsored Merchant and the same Account. A noncompliant
+      Issuer may be subject to fees under the global ASI Transaction Processing Excellence program.
+
+    questions_and_answers:
+      - question: |
+          When accounts must the Issuer of a debit Card Program or of a credit Card Program providing
+          cash access at ATM Terminals and Bank Branch Terminals support POS Transaction authorizations
+          and preauthorizations from?
+        answer: |
+          The Issuer of a debit Card Program or of a credit Card Program that provides cash access at
+          ATM Terminals and Bank Branch Terminals must support POS Transaction authorizations and 
+          preauthorizations from a debit Cardholder’s primary account, checking account, and savings 
+          account.
+      - question: |
+          What types of Transactions must a Chip Card Issuer that elects to process offline Chip 
+          Transactions support?
+        answer: |
+          A Chip Card Issuer that elects to process offline Chip Transactions must support offline
+          purchase and refund Transactions.
+      - question: |
+          What is the appropriate course of action when a Cardholder cannot perform an offline 
+          transaction?
+        answer: |
+          If an offline Transaction type is not offered to a Cardholder, the chip must send the 
+          Transaction online for authorization or decline the Transaction offline.
+      - question: |
+          What range of refund Transactions must an Issuer support online authorization for?
+        answer: |
+          An Issuer must support the online authorization of refund Transactions for all Mastercard 
+          and Debit Mastercard Account ranges, with the exception of non-reloadable prepaid Account ranges.
+      - question: |
+          In what locations must an Issuer decline authorization of a Transaction when technical fallback
+          from chip to magetic stripe occurs?
+        answer: |
+          An Issuer must decline authorization of a Transaction conducted in the Canada, Europe, Latin
+          America and the Caribbean, or Middle East/Africa Region when technical fallback from chip to
+          magnetic stripe occurred.
+      - question: |
+          Where should the response to an ASI request be provided?
+        answer: |
+          An Issuer that receives an ASI request must provide a valid and accurate value in DE 39
+          (Response Code) of the Authorization Request Response/0110 or Financial Transaction Request
+          Response/0210 message.
+      - question: |
+          How should an Issuer respond to an ASI request?
+        answer: |
+          If a Mastercard or Debit Mastercard Account is open and active, the Issuer must provide a value 
+          of 00 (Approved) or 85 (Not Declined) in DE 39.
+
+  - context: |
+      A Mastercard credit Card Issuer must maintain a 70 percent minimum ATM Transaction
+      approval rate and manage individual denial category rates in compliance with the following
+      Standards.
+
+      | Category | Maximum Denial Rate | Reason Codes |
+      | Invalid PIN | 13% | 55 | 
+      | Insufficient Funds | 10% | 51 |
+      | Invalid Transactions | 14% | 57 |
+      | Exceed Limit | 9% | 61 |
+      | Restricted Card | 4% | 62 |
+
+      The Issuer determines the maximum cash withdrawal limits applicable to its Cardholders;
+      however, the Issuer must permit its Mastercard credit Cardholders to withdraw at least the
+      equivalent of USD 200 daily if the available credit exists, and there is no other reason to deny
+      the transactions.
+ 
+      To accommodate ATM Access Fees and currency conversions, the Issuer must authorize
+      Transactions up to the equivalent of USD 10 or 10 percent, whichever is greater, more than the
+      daily Transaction amount limit communicated to the Cardholder.
+
+    questions_and_answers:
+      - question: |
+          What ATM Transaction approval rate must a Mastercard credit Card Issuer maintain?
+        answer: |
+          A Mastercard credit Card Issuer must maintain a 70 percent minimum ATM Transaction approval 
+          rate.
+      - question: |
+          What ATM Transaction denial rate must a Mastercard credit Card Issuer maintain?
+        answer: |
+          A Mastercard credit Card Issuer must manage individual denial category rates of
+          - 13% maximum for invalid PIN
+          - 10% maximum for insufficient funds
+          - 14% maximum for invalid transactions
+          - 9% maximum for exceed limit
+          - 4% maximum for restricted card
+      - question: |
+          Who determines the maximum cash withdrawal limits applicable to its Cardholders?
+        answer: |
+          The Issuer determines the maximum cash withdrawal limits applicable to its Cardholders
+      - question: |
+          What should be the minimum cash withdrawal permitted by the Issuer?
+        answer: |
+          The Issuer must permit its Mastercard credit Cardholders to withdraw at least the
+          equivalent of USD 200 daily if the available credit exists, and there is no other 
+          reason to deny the transactions.
+      - question: |
+          How should authorizations account for ATM Access Fees and currency conversions?
+        answer: |
+          The Issuer must authorize Transactions up to the equivalent of USD 10 or 10 percent, 
+          whichever is greater, more than the daily Transaction amount limit communicated to the 
+          Cardholder.
+
+  - context: |
+      A message reason code 4808 (Authorization–related Chargeback) chargeback protection period
+      applies to each Mastercard POS Transaction as follows.
+
+      | Each Mastercard POS Transaction identified as a... | Has a message reason code 4808 chargeback protection period of... |
+      | Preauthorization | 30 calendar days from the authorization approval date |
+      | Undefined authorization | Seven calendar days from the authorization approval date |
+      | Final authorization | Seven calendar days from the authorization approval date for
+                              purchase and purchase with cash back Transactions and
+                              effective 12 April 2024, five calendar days from the
+                              authorization approval date for refund Transactions |
+      
+      The Issuer must release any hold placed on the Cardholder’s Account after the expiration of the
+      message reason code 4808 chargeback protection period for a particular Transaction, at the
+      latest.
+      
+      The total authorized amount of a Transaction does not include any amount for which the
+      message reason code 4808 chargeback protection period has expired. The approved amount of
+      any authorization with an expired message reason code 4808 chargeback protection period is
+      deemed to be zero.
+      
+      No fraud–related or other chargeback rights or Transaction processing requirements are
+      affected by the message reason code 4808 chargeback protection period, unless otherwise
+      indicated
+
+    questions_and_answers:
+      - question: |
+          What does message reason code 4808 mean?
+        answer: |
+          A message reason code 4808 is for Authorization–related Chargeback.
+      - question: |
+          How long is an the Authorization–related Chargeback protection period for a Transaction identified
+          as a Final authorization?
+        answer: |
+          Seven calendar days from the authorization approval date for purchase and five calendar days from
+          authorization approval date for refund Transactions
+      - question: |
+          What must occur after the expiration of the chargeback protection period?
+        answer: |
+          The Issuer must release any hold placed on the Cardholder’s Account after the expiration of the
+          message reason code 4808 chargeback protection period for a particular Transaction, at the
+          latest.
+      - question: |
+          Does the total authorized amount of a Transaction include any amount for which the message reason
+          code 4808 chargeback protection period has expired?
+        answer: |
+          No.
+      - question: |
+          Are any fraud–related or other chargeback rights or Transaction processing requirements affected
+          by the message reason code 4808 chargeback protection period?
+        answer: |
+          No, unless otherwise indicated.
+
+document_outline: |
+  This document contains the Transaction Processing Rules for Mastercard
+document:
+  repo: https://github.com/olliebang/instructlab
+  commit: 7f4cadf
+  patterns:
+    - try3/can_markdown.md
