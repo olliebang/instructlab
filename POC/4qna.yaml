@@ -1,0 +1,248 @@
+version: 3
+created_by: olliebang
+domain: legal and regulatory
+seed_examples:
+  - context: |
+      #### When to verify the identity of persons and entities—Financial entities
+      From: Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)
+
+
+      #### Overview
+      This guidance came into effect on June 1, 2021.
+
+      This guidance on client identification describes when financial entities (FEs) must verify the identity of persons and
+      entities as required by the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA) and
+      associated Regulations. Details on how to verify the identity of persons and entities are available in FINTRAC's Methods to verify
+      the identity of persons and entities guidance.
+
+      #### Who is this guidance for
+      Financial entities
+
+      #### In this guidance
+      When do I have to verify the identity of persons and entities?
+      What is the difference between verifying identity and keeping client identification information up to date?
+      What are the exceptions to client identification requirements?
+      **Note: Throughout this guidance, references to dollar amounts (such as $10,000) are in Canadian dollars.
+
+    questions_and_answers:
+      - question: |
+          What is the purpose of this guidance?
+        answer: |
+          The purpose of the guidance describes when financial entities (FEs) must verify the identify of persons and entities
+          as required by the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA) and associated Regulations.
+      - question: |
+          When did this guidance come into effect?
+        answer: |
+          This guidance came into effect on June 1, 2021.
+      - question: |
+          Who is required to verify the identity of persons and entities?
+        answer: |
+          FEs
+  - context: |
+      ### 1. When do I have to verify the identity of persons and entities?
+      As an FE, you must verify the identity of clients for the following:
+
+      a. Large cash transactions
+      b. Large virtual currency (VC) transactions
+      c. Suspicious transactions
+      d. cssuing or redeeming money orders, traveller's cheques or other similar negotiable instruments of $3,000 or more
+      e. Initiating an international electronic funds transfer (EFT)—or any other EFT that is a SWIFT MT-103 message or its equivalent—of $1,000 or more
+      f. Remitting funds to the beneficiary of an international EFT of $1,000 or more
+      g. Transferring VC in an amount equivalent to $1,000 or more
+      h. Remitting VC to a beneficiary in an amount equivalent to $1,000 or more
+      i. Foreign currency exchange transactions of $3,000 or more
+      j. VC exchange transactions in amounts equivalent to $1,000 or more
+      k. Accounts—account holders and persons authorized to give instructions
+      l. Credit card accounts—account holders
+      m. Prepaid payment product (PPP) accounts
+         - Account holders
+         - Authorized users
+         - Payments of $1,000 or more to PPP account
+      n. Trusts—settlors or co-trustees of a trust
+
+    questions_and_answers:
+      - question: |
+          What are the transactions for which FEs must verify the identify of persons and entities?
+        answer: |
+          FEs must verify the identify of persons and entities for the following transactions?
+          a. Large cash transactions
+          b. Large virtual currency (VC) transactions
+          c. Suspicious transactions
+          d. cssuing or redeeming money orders, traveller's cheques or other similar negotiable instruments of $3,000 or more
+          e. Initiating an international electronic funds transfer (EFT)—or any other EFT that is a SWIFT MT-103 message or its equivalent—of $1,000 or more
+          f. Remitting funds to the beneficiary of an international EFT of $1,000 or more
+          g. Transferring VC in an amount equivalent to $1,000 or more
+          h. Remitting VC to a beneficiary in an amount equivalent to $1,000 or more
+          i. Foreign currency exchange transactions of $3,000 or more
+          j. VC exchange transactions in amounts equivalent to $1,000 or more
+          k. Accounts—account holders and persons authorized to give instructions
+          l. Credit card accounts—account holders
+          m. Prepaid payment product (PPP) accounts
+             - Account holders
+             - Authorized users
+             - Payments of $1,000 or more to PPP account
+          n. Trusts—settlors or co-trustees of a trust
+      - question: |
+          For virtual currency (VC) transfers, what amount over which must FEs verify the identify of persons and entities?
+        answer: |
+          FEs must verify the identify of persons and entities for virtual currency (VC) transfers equivalent to $1000 or more.
+      - question: |
+          What is the international electronic funds transfer (EFT) amount for which FEs must verify the identity of persons and entities?
+        answer: |
+          FEs must verify the identify of persons and entities when electronic funds transfer (EFT) transaction is equivalent to $1000 or more.p
+      - question: |
+          True or False? FEs must verify the identify of persons and entities when the electronic funds transfer (EFT) transaction amount is
+          less than $1000.
+        answer: |
+          False.
+  - context: |
+      ## a. Large cash transactions
+      You must verify the identity of every person or entity from which you receive $10,000 or more in cash when the transaction takes place.
+      Footnote1 This includes a situation where you are deemed to have received cash because you have authorized another person or entity to receive it on your
+      behalf. Footnote2
+
+      **Note: This obligation is subject to the 24-hour rule.Footnote3
+
+      ## b. Large virtual currency (VC) transactions
+      You must verify the identity of every person or entity from which you receive VC in an amount equivalent to $10,000 or more when
+      the transaction takes place.Footnote4 This includes a situation where you are deemed to have received VC because you have authorized
+      another person or entity to receive it on your behalf.Footnote5
+
+      **Note: This obligation is subject to the 24-hour rule.Footnote6
+
+      c. Suspicious transactions
+      You must take reasonable measures to verify the identity of every person or entity that conducts or attempts to conduct a
+      suspicious transaction, regardless of the transaction amount, and including transactions that would normally be exempt from client
+      identification requirements, before sending a Suspicious Transaction Report (STR).Footnote7
+
+      d. Issuing or redeeming money orders, traveller's cheques or other similar negotiable instruments of $3,000 or more
+      You must verify the identity of every person who requests that you issue or redeem money orders, traveller's cheques or
+      similar negotiable instruments of $3,000 or more when the transaction is being requested. Footnote8
+    questions_and_answers:
+      - question: |
+          What is the cash tranaction amount when FEs must verify the identify of persons or entities from whom cash was received?
+        answer: |
+          FEs must verify the identify of persons and entities when the cash received from them is $10000 or more.
+      - question: |
+          What is the virtual currency (VC) tranaction amount when FEs must verify the identify of persons or entities from whom virtual currency was received?
+        answer: |
+          FEs must verify the identify of persons and entities when the virtual currency amount received from them is $10000 or more.
+      - question: |
+          What is the threshold transaction amount in order for FEs
+          to verify the identify of persons or entity who conduct or attempt to conduct suspicious transactions?
+        answer: |
+          FEs must verify the identify of persons and entities who conduct or attempt to conduct suspicious transactions regarless of transaction amount.
+  - context: |
+      e. Initiating an international electronic funds transfer (EFT)—or any other EFT that is a SWIFT MT-103 message or its equivalent—of $1,000 or more
+      You must verify the identity of every person who requests the initiation of an international EFT or any other EFT that is a SWIFT MT-103
+      or its equivalent, including domestic SWIFT MT-103, of $1,000 or more when the transaction is being requested.Footnote9
+
+      f. Remitting funds to the beneficiary of an international EFT of $1,000 or more
+      You must verify the identity of every person you remit funds to who is the beneficiary of an international EFT of $1,000 or more when the
+      transaction takes place.Footnote10
+
+      g. Transferring VC in an amount equivalent to $1,000 or more
+      You must verify the identity of every person who requests the transfer of VC in an amount equivalent to $1,000 or more
+      when the transaction is being requested.Footnote11
+
+      h. Remitting VC to a beneficiary in an amount equivalent to $1,000 or more
+      You must verify the identity of every person you remit VC to as the beneficiary of a transfer that is
+      equivalent to $1,000 or more when the transaction takes place.Footnote12
+
+      i. Foreign currency exchange transactions of $3,000 or more
+      You must verify the identity of every person who requests a foreign currency exchange of $3,000 or more when the transaction takes place.Footnote13
+
+      j. VC exchange transactions in amounts equivalent to $1,000 or more
+      You must verify the identity of every person who requests that you exchange VC for funds, funds for VC, or one VC for another,
+      in an amount equivalent to $1,000 or more when the transaction is being requested.Footnote14
+
+      k. Accounts—Account holders and persons authorized to give instructions
+      # Account holders
+      You must verify the identity of every person, corporation, and entity other than a corporation for which you open
+      an account.Footnote15 You must do this before the first transaction other than when the initial deposit is carried out.Footnote16
+
+      # Persons authorized to give instructions
+      You must verify the identity of every person authorized to give instructions on an account before the first transaction,
+      other than the initial deposit, is carried out on the account.Footnote17
+
+      This includes verifying the identity of the individual members of a group plan account who are authorized to give
+      instructions, when a contribution to the plan is made in respect of the member.Footnote18
+
+      You cannot open an account for a person, corporation, or other entity if you cannot verify their identity in accordance with the Regulations.Footnote19
+    questions_and_answers:
+      - question: |
+          When do FEs verify the identity of a person initiating an international electronic funds transfer (EFT)?
+        answer: |
+          FEs must verify the identify of a person initiating an international electronic funds transfer (EFT) when the EFT amount is $1000 or more.
+      - question: |
+          Do FEs verify the identify of a beneficiary of an international electronic funds transfer (EFT) when the EFT amount is $1000 or more?
+        answer: |
+          Yes, FEs must verify the identify of the beneficiary of an internatl electronic funds transfer (EFT) when the EFT amount is $1000 or more.
+      - question: |
+          Do FEs verify the identify of a beneficiary of a virtual currency transfer when virtual currency amount is $1000 or more?
+        answer: |
+          Yes, FEs must verify the identify of the beneficiary of a virtual currency transfer when the virtual currency amount is $1000 or more.
+  - context: |
+      l. Credit card accounts—account holders
+      You must verify the identity of every person, corporation, and other entity for which you open a credit card account
+      Footnote20 before the credit card can be activated.Footnote21
+      If credit cards are issued for persons other than the account holder, you must record their information
+      if they are authorized to give instructions on an account, but you do not have to verify their identity.
+
+      For example, a parent applying for a credit card account requests that a credit card be issued on that
+      account for their child, and that child be authorized to give instructions on that account.
+      In this example, the parent's identity has to be verified because the parent is the account holder, the child's identity does not need to be verified.
+
+      If there are two or more co-applicants for a credit card account (in other words,
+      if a credit card account is opened in the name of more than one person), the identification requirement applies to all co-applicants.
+
+      m. Prepaid payment product (PPP) accounts
+      Account holders
+      You must verify the identity of every person, corporation, and other entity for which you open a PPP account
+      Footnote22 before the PPP account is activated.Footnote23
+
+      Authorized users
+      You must also verify the identity of every authorized user of the PPP accountFootnote24 before the first transaction is carried out.Footnote25
+
+      Payments of $1,000 or more to PPP Accounts
+      You must verify the identity of every person, corporation, and other entity that makes a payment of $1,000 or more to
+      a PPP accountFootnote26 when the transaction takes place.Footnote27
+
+      n. Trusts—settlors or co-trustees of a trust
+      If you are a trust company, you must verify the identity of every person who is the settlor of an
+      inter vivos trust for which you are a trustee.Footnote28
+
+      You must also verify the identity of a corporation or an entity other than a corporation that is the
+      settlor of an institutional trust for which you are a trustee.Footnote29
+
+      You must verify the identity of any person who is authorized to act as co-trustee of a trust.
+      Footnote30 If an entity is authorized to act as co-trustee of a trust, you must verify its identity
+      and the identity of all persons authorized to give instructions on its behalf (up to three).Footnote31
+
+      You must verify the identity of a person or an entity within 15 days after the day on which the trust company becomes the trustee.Footnote32
+
+    questions_and_answers:
+      - question: |
+          Do FEs verify the identity of every person or entity who opens a credit card account?
+        answer: |
+          Yes, FEs must verify the identify of every person or entity who opens a credit card account.
+      - question: |
+          Do FEs verify the identity of every person or entity who opens a PPP account account?
+        answer: |
+          Yes, FEs must verify the identify of every person or entity who opens a PPP account.
+      - question: |
+          What is the threshold PPP payment amount for which FEs must verify the identity of the person or entity making that PPP payment?
+        answer: |
+          The threshold PPP payment amount for which FEs must verify the identify of the person or entity making that PPP payment is $1000.
+      - question: |
+          True or False: FEs must verify the identity of persons or entities making a PPP payment when PPP payment is $1000 or more.
+        answer: |
+          True`.
+
+document_outline: |
+  this document goes through the methods of identity verification
+document:
+  repo: https://github.com/olliebang/instructlab
+  commit: f081d89
+  patterns:
+    - POC/4can_markdown.md
