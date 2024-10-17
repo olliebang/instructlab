@@ -1,0 +1,84 @@
+version: 3
+created_by: gibsonlam
+domain: mortgage
+seed_examples:
+- context: |
+    First two rows of table
+  questions_and_answers:
+    - question: |
+        What are the available programs for FHA Refinance?
+      answer:
+        There are 3 programs available for FHA Refinance; FHASecure, FHA 95% Cash-out Refinance,
+        and FHA to FHA Refinance
+    - question: |
+        What programs is a FHA loan eligible for?
+      answer: |
+        A FHA loan is eligible for FHA to FHA Refinance. It is also eligible for the FHA 95% Cash-out
+        Refinance if the loan is seasoned at least 12 months with the last 12 payments made within the
+        month due.
+    - question: |
+        What programs is a conventional loan eligible for?
+      answer: |
+        A conventional loan is eligible for FHASecure. It is also eligible for the FHA 95% Cash-out
+        Refinance if the loan is seasoned at least 12 months with the last 12 payments made within the
+        month due.
+
+- context: |
+    Row 3
+  questions_and_answers:
+    - question: |
+        Which programs use Standard LTV on FHA first mortgage?
+      answer: |
+        FHASecure and FHA to FHA Refinance use Standard LTV on FHA first mortgage?
+    - question: |
+        What is the LTV for FHA 95% Cash-out Refinance?
+      answer: |
+        LTV for FHA 95% Cash-out Refinance is up to 95% LTV on FHA first mortgage that does not exceed $417,000.
+        Otherwise limited to 85% LTV.
+    - question: |
+        What is used in determing maximum loan amount in the different programs?
+      answer: |
+        In all 3 programs, the current appraised value is used in determining maximum loan amount.
+
+- context: |
+    Underwriting
+  questions_and_answers:
+    - question: |
+        Which program requires the borrower to be current and have an acceptable mortgage payment history?
+      answer: |  
+        FHA to FHA Refinance
+    - question: |
+        Which program allows adding non-occupant co-borrowers in the FHA First Mortgage?
+      answer: |
+        All programs allow adding non-occupant co-borrowers, but the FHA 95% Cash-out Refinance is only
+        permissible for those limited to 85% LTV and not allowed for 95% cash-out refinance transactions.
+    - question: |
+        How are payments on secondary financing used to qualify the Borrower in each of the programs?
+      answer: |  
+        In all 3 programs, if payments on the second are required, they must be included in the qualifying borrower,
+        however, with FHASecure, there is an exception if payment is deferred for a period of at least 36 months.
+    - question: |
+        Are there any differences in secondary financing requirements between the 3 programs?
+      answer: |  
+        No, all 3 programs have the same secondary financing requirements.
+
+- context: |
+    Mortgage Insurance and Documentation Requirements
+  questions_and_answers:
+    - question: |
+        Do all the programs have the same Mortgage Insurance?
+      answer: |  
+        All programs have mortgage insurance requirement of 1.5% UFMIP and .50% Annual Premium, however, for the
+        FHASecure program that are Delinquent, the requirement is 2.25% UFMIP and .55% Annual Premium when LTV > 95%.
+    - question: |
+        What are the documentation requirements for the programs?
+      answer: |  
+        All programs have the standard FHA documentation requirements, but the FHASecure program reqwuires additional documentation.
+
+document_outline: |
+  This document compares the FHA Refinance Programs
+document:
+  repo: https://github.com/olliebang/instructlab
+  commit: 7f4cadf
+  patterns:
+    - try3/can_markdown.md

@@ -342,6 +342,31 @@ seed_examples:
         answer: |
           No, unless otherwise indicated.
 
+  - context: |
+      Table on page 286
+    questions_and_answers:
+      - question: |
+          What transaction date should be used for an in-person transaction?
+        answer: |
+          The date on which products or services are exchanged.
+      - question: |
+          What transaction date should be used for a transaction conducted on the Internet?
+        answer: |
+          The date on which products are shipped or services performed.
+      - question: |
+          What transaction date should be used for lodging?
+        answer: |
+          The date on which checkout occurred, or if applicable, the prepayment date.
+      - question: |
+          What transaction date should be used for transportation?
+        answer: |
+          The date on which the ticket was issued.
+      - question: |
+          What transaction date should be used for a cruise line?
+        answer: |
+          For a cruise line, the date the transportation documents were issued, or if on-board
+          cruise line, the date the passenger disembarks.
+
 document_outline: |
   This document contains the Transaction Processing Rules for Mastercard
 document:
